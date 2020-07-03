@@ -1,0 +1,48 @@
+.products {
+  .product-heading {
+    h1 {
+      font-weight: 300;
+      letter-spacing: 0.2rem;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .product-category {
+    height: 100%;
+    .buttons {
+      height: 100%;
+      padding: 30px 0;
+    }
+    .btn {
+      color: white;
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:hover {
+        border-right: 3px solid #ffeb9f;
+      }
+    }
+  }
+}
+
+.slick-next {
+  position: absolute;
+  top: 350px;
+  right: 20px;
+}
+
+.slick-prev {
+  position: relative;
+  bottom: -350px;
+  left: 18px;
+}
+
+div {
+  outline: none;
+}

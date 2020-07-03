@@ -1,0 +1,66 @@
+.need-section {
+  .form-sec {
+    position: relative;
+    top: -40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .input-group-text {
+    background-color: #f7941e;
+    color: white !important;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+
+    &:focus {
+      outline: none;
+      box-shadow: none !important;
+    }
+  }
+
+  .form-control {
+    border: none;
+    padding-left: 30px;
+  }
+
+  .buttons {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+    .inner-btn {
+      padding: 0 10px;
+      transition: ease 0.5s;
+
+      &:hover {
+        transform: translateY(-8px);
+      }
+    }
+
+    svg {
+      color: #f7941e;
+      font-size: 25px;
+      font-weight: 500;
+      background-color: white;
+    }
+
+    .btn-bg {
+      padding: 5px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .content-box {
+    transition: ease-in-out 0.5s;
+
+    &:hover {
+      transform: rotate(2deg);
+    }
+  }
+}

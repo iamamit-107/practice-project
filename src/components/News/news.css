@@ -1,0 +1,4 @@
+.news .card:hover {
+  transition: ease-in-out 0.5s;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
